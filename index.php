@@ -1,5 +1,7 @@
 <?php
 
+header( 'Access-Control-Allow-Origin: *' );
+
 if ( ! isset( $_POST['name'] ) ||
 		! isset( $_POST['email'] ) ||
 		! isset( $_POST['subject'] ) ||
